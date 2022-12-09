@@ -8,7 +8,7 @@ export interface InputProps {
   style?: React.CSSProperties;
   value?: string;
   name?: string;
-  type?: string;
+  type?: 'text' | 'number' | 'tel' | 'time' | 'date' | 'url' | 'email';
   password?: boolean;
   placeholder?: string;
   placeholderStyle?: React.CSSProperties;

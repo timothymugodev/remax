@@ -22,7 +22,8 @@
     "site:build": "yarn --cwd website build",
     "site:deploy": "yarn --cwd website deploy",
     "install:codesandbox": "PUPPETEER_SKIP_DOWNLOAD=1 yarn install",
-    "authors": "./scripts/authors"
+    "authors": "./scripts/authors",
+    "install:modules": "lerna bootstrap --use-workspaces"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
